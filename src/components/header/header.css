@@ -1,0 +1,71 @@
+.navigation {
+    color: black;
+}
+
+p {
+    font-size: 12px;
+}
+
+.navigation p {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.nav:hover {
+    color: #4188f2;
+    transition: 0.1s;
+}
+
+
+.search-bar {
+    outline: none;
+    border-radius: 7px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+}
+
+.message-number {
+    background-color: #4188f2;
+    color: white;
+    text-align: center;
+    width:20px;
+    height:20px;
+}
+
+.message-number p {
+    margin: 0;
+    font-size: 10px;
+}
+
+
+#day {
+    cursor: pointer;
+}
+
+#day p {
+    margin: 0;
+}
+
+#day:hover {
+    color: #4188f2;
+    transition: 0.1s;
+    background-color: rgb(245, 245, 245);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#night {
+    cursor: pointer;
+}
+
+#night p {
+    margin: 0;
+}
+
+#night:hover {
+    color: #4188f2;
+    transition: 0.1s;
+    background-color: rgb(245, 245, 245);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
