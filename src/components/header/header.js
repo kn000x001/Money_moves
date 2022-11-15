@@ -5,11 +5,12 @@ import { faHouse, faUser, faChartPie, faCircleInfo, faBorderAll,
         faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
 
 
-
 const Header =() => {
 return(
-    <header className="d-flex flex-column col-2 justify-content-between">
-        <div className="navigation d-flex flex-column mt-2">
+    <>
+    
+    <header className="d-none d-lg-flex flex-column col-2 justify-content-between p-2">
+        <div className="navigation d-lg-flex flex-column mt-5">
             <div className="d-flex nav">
                 <FontAwesomeIcon icon={faHouse} className="me-2"/>
                 <p>მთავარი</p>
@@ -73,7 +74,7 @@ return(
         </div>
 
         <div className="border-top my-5">
-            <div className="d-flex justify-content-center align-items-center day-night-cicle">
+            <div className="d-flex justify-content-center align-items-center day-night-cicle mt-3">
                 <div id="day" className="p-2 d-flex">
                     <FontAwesomeIcon icon={faSun} className="me-2"/>
                     <p>Day</p>
@@ -86,6 +87,7 @@ return(
             </div>
         </div>
     </header>
+    </>
     )}
 
 export default Header

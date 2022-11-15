@@ -1,3 +1,10 @@
+@media only screen and (max-width: 995px) {
+    .search_container svg {
+        top: 40px!important;
+        color: gray;
+        margin-left: 6px;
+    }
+}
 .navigation {
     color: black;
 }
@@ -22,6 +29,27 @@ p {
     border-radius: 7px;
     background-color: rgb(245, 245, 245);
     border: none;
+}
+
+.search_container svg {
+    top: 20px;
+    color: gray;
+    margin-left: 6px;
+}
+
+.avatar_icon {
+    background-color: rgb(245, 245, 245);
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.avatar_icon svg {
+    margin: 0!important;
+}
+
+.individual {
+    color: gray;
 }
 
 .message-number {

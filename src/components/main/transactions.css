@@ -1,0 +1,14 @@
+.transaction_comment {
+    color: gray;
+    font-size: 10px!important;
+}
+
+.icon_frame {
+    background-color: rgb(245, 245, 245);
+    border-radius: 7px;
+}
+
+.profile-info {
+    overflow-y: scroll;
+    max-height: 550px;
+}

@@ -3,34 +3,93 @@
     height: 100%;
   }
   
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-  
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .swiper-container {
-    width: 100%;
-    height: 300px;
-    margin: 20px auto;
-  }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  padding: 0.5rem;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: start;
+  align-items: start;
+  height: 200px!important;
+  background-color: white;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+
+   
+.swiper-wrapper {
+    background-color: rgb(245, 245, 245);
+}
+
+.swiper-button-prev {
+position: relative!important;
+}
+
+.swiper-button-next {
+position: relative!important;
+}
+
+.swiper-button-prev::after {
+font-size: 16px!important;
+background-color: rgb(245, 245, 245)!important;
+border: solid 1px rgb(195, 195, 195)!important;
+padding:0.5rem!important;
+border-radius: 30px;
+color: black!important
+}
+
+.swiper-button-next::after {
+font-size: 16px!important;
+background-color: rgb(245, 245, 245)!important;
+border: solid 1px rgb(195, 195, 195)!important;
+padding:0.5rem!important;
+border-radius: 30px;
+color: black!important    
+}
+
+.gear_icon_frame {
+  background-color: pink;
+  border-radius: 30px;
+}
+
+.bag_icon_frame {
+  background-color: rgb(112, 112, 255);
+  border-radius: 30px;
+}
+
+.coin_icon_frame {
+  background-color: rgb(255, 255, 131);
+  border-radius: 30px;
+}
+
+.widget_button {
+  border-radius: 7px;
+  border: 1px solid rgb(215, 213, 213);
+}
+
+
+.widget_button:hover {
+  color: rgb(112, 112, 255);
+}
