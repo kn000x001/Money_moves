@@ -8,7 +8,7 @@ import { faHouse, faUser, faChartPie, faCircleInfo, faBorderAll,
 
 const Header =() => {
 return(
-    <header className="d-flex flex-column col-3 justify-content-between">
+    <header className="d-flex flex-column col-2 justify-content-between">
         <div className="navigation d-flex flex-column mt-2">
             <div className="d-flex nav">
                 <FontAwesomeIcon icon={faHouse} className="me-2"/>

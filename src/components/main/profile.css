@@ -14,16 +14,18 @@ main {
 
 .payment-part {
     border-radius: 7px;
-background-color: rgb(216, 216, 254);
+    background-color: rgb(216, 216, 254);
 }
 
 .transaction-part {
     border-radius: 7px;
-    background-color: rgb(200, 199, 199);;
+    background-color: rgb(200, 199, 199);
 }
 
 .swiper-slide {
  height: 150px!important;
+ background-color: white;
+
 }
 
 .swiper-wrapper {

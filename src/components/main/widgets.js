@@ -1,4 +1,3 @@
-import { useRef } from 'react';
 import { Swiper, SwiperSlide} from 'swiper/react';
 import styles from './widget.css';
 import 'swiper/css';
