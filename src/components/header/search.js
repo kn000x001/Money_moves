@@ -18,7 +18,7 @@ const Search = () => {
                 </div>
                 <div className="d-flex flex-column px-2">
                     <p className="m-0 individual">ფიზიკური პირი</p>
-                    <h6>Giorgi Gvarashvili</h6>
+                    <h6 className="name">Giorgi Gvarashvili</h6>
                 </div>
 
                 <div className="dropdown">

@@ -1,0 +1,116 @@
+body.light .navigation {
+   background-color:  rgb(34, 34, 34);
+}
+
+body.light .navigation p {
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+}
+
+body.light header {
+    background-color: rgb(34, 34, 34);
+}
+body.light .nav svg {
+    color: white;
+}
+
+body.light .search-bar  {
+    background-color: black;
+    color:rgb(245, 245, 245);
+}
+
+body.light .nav:hover svg {
+    color: #4188f2;
+    transition: 0.1s;
+}
+
+body.light .nav:hover p {
+    color: #4188f2;
+    transition: 0.1s;
+}
+
+body.light .search_container {
+    background-color: rgb(34, 34, 34);
+}
+
+body.light .main-part {
+    background-color: black;
+}
+
+body.light .profile-info {
+    background-color: rgb(34, 34, 34);
+}
+
+body.light .profile-info p {
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+body.light .transaction-part p {
+    background: transparent;
+    color: black;
+}
+
+body.light .payment-part p {
+    background: transparent;
+    color: black;
+}
+
+body.light .mobile-part p {
+    background: transparent;
+    color: black;
+}
+
+body.light .name {
+    color: white;
+}
+
+body.light h5 {
+    color: white;
+}
+
+body.light h1 {
+    color: white;
+}
+
+body.light h6 {
+    color: white;
+}
+
+body.light #night {
+    color: #4188f2;
+    background-color: rgb(68, 68, 68);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(68, 68, 68);
+}
+
+body.light #day {
+    color: rgb(68, 68, 68);
+    border: 1px solid black;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: black;
+}
+
+body.light .swiper-slide {
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+body.dark #night {
+    color: white;
+    border: 1px solid rgb(98, 98, 98);;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(98, 98, 98);
+}
+
+body.dark #day {
+    color: #4188f2;
+    border: 1px solid white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: white
+}

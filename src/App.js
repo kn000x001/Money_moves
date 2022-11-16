@@ -1,7 +1,7 @@
 import './App.css';
 import Profile from './components/main/profile';
 import Layout from './container/layout';
-import {useState, useEffect } from 'react';
+import React from 'react';
 
 
 function App() {

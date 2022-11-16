@@ -11,4 +11,10 @@
 .profile-info {
     overflow-y: scroll;
     max-height: 550px;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none; 
+}
+
+.profile-info::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }

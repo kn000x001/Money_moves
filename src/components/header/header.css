@@ -7,22 +7,26 @@
 }
 .navigation {
     color: black;
+    background-color: white;
 }
 
 p {
     font-size: 12px;
 }
 
-.navigation p {
-    font-size: 12px;
-    cursor: pointer;
+.nav svg {
+    color: black;
+}
+
+.nav:hover svg {
+    color: #4188f2;
+    transition: 0.1s;
 }
 
 .nav:hover {
     color: #4188f2;
     transition: 0.1s;
 }
-
 
 .search-bar {
     outline: none;
@@ -54,7 +58,6 @@ p {
 
 .message-number {
     background-color: #4188f2;
-    color: white;
     text-align: center;
     width:20px;
     height:20px;
@@ -63,6 +66,8 @@ p {
 .message-number p {
     margin: 0;
     font-size: 10px;
+    color: white!important;
+
 }
 
 

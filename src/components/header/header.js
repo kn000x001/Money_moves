@@ -1,8 +1,8 @@
 import './header.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faHouse, faUser, faChartPie, faCircleInfo, faBorderAll, 
-        faLocationDot, faGear, faCommentDots, faArrowRightFromBracket, faBell,
-        faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
+        faLocationDot, faGear, faCommentDots, faArrowRightFromBracket, faBell,} from '@fortawesome/free-solid-svg-icons'
+import Toggler from './toggler'
 
 
 const Header =() => {
@@ -73,19 +73,8 @@ return(
             </div>
         </div>
 
-        <div className="border-top my-5">
-            <div className="d-flex justify-content-center align-items-center day-night-cicle mt-3">
-                <div id="day" className="p-2 d-flex">
-                    <FontAwesomeIcon icon={faSun} className="me-2"/>
-                    <p>Day</p>
-                </div>
-
-                <div id="night" className="p-2 d-flex">
-                    <FontAwesomeIcon icon={faMoon} className="me-2"/>
-                    <p>Night</p>
-                </div>
-            </div>
-        </div>
+        <Toggler></Toggler>
+       
     </header>
     </>
     )}
