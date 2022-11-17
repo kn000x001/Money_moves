@@ -52,6 +52,14 @@ body.light .transaction-part p {
     color: black;
 }
 
+body.light .profile_transaction_button p{
+    background-color: rgb(68, 68, 68);
+}
+
+body.light .profile_transaction_button:hover p {
+ background-color: #4188f2;
+}
+
 body.light .payment-part p {
     background: transparent;
     color: black;

@@ -1,4 +1,4 @@
-import { faArrowsRotate, faUsers } from "@fortawesome/free-solid-svg-icons"
+import { faArrowsRotate, faUsers, faChevronRight } from "@fortawesome/free-solid-svg-icons"
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import './transactions.css'
 
@@ -183,6 +183,12 @@ const Transactions = () => {
               </div>
             </div>
           </div>
+            <div className="d-flex justify-content-center">
+              <button className="d-flex p-2 align-items-center mt-2  mb-2 mb-lg-0 widget_button profile_transaction_button">
+                <p className="m-0">სრულად</p>
+                <FontAwesomeIcon icon={faChevronRight} className="px-2"></FontAwesomeIcon>
+              </button>
+            </div>
         </div>
     )
 }
