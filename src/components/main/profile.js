@@ -17,9 +17,15 @@ const Profile = () => {
               <p>504.06</p>
             </div>
 
-            <div className="py-2 border-bottom">
-              <p className="m-0 border-top">ანგარიშის ნომერი</p>
-              <p className="m-0">00000001256478</p>
+            <div className="py-2 border-bottom border-top d-flex row col-12">
+              <div className="p-2 rounded d-flex align-items-center col-1 justify-content-center wallet__image">
+                <FontAwesomeIcon icon={faWallet}></FontAwesomeIcon>
+              </div>
+              <div className="p-2 col-9">
+                <p className="m-0">ანგარიშის ნომერი</p>
+                <p className="m-0">00000001256478</p>
+              </div>
+
             </div>
             
             <div className="row justify-content-center text-center py-2">

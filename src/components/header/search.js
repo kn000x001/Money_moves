@@ -5,9 +5,9 @@ import Hamburger from './offcanvas';
 
 const Search = () => {
     return(
-        <div className="d-flex">
+        <div className="row search__header d-flex justify-content-between">
+        <div className="container d-flex justify-content-around row col-12 p-2 align-items-center search_container">
         <Hamburger></Hamburger>
-        <div className="container d-flex justify-content-around row p-2 align-items-center search_container">
             <div className="col-md-6 col-5">
                 <FontAwesomeIcon icon={faMagnifyingGlass} className="search_icon position-absolute"></FontAwesomeIcon>
                 <input type="text" placeholder="ძიება" className="col-12 search-bar d-flex align-items-center p-2 ps-5" />
@@ -33,7 +33,7 @@ const Search = () => {
                     </ul>
                 </div>
 
-                <select className="form-select-sm ms-4 col-2" aria-label="Default select example">
+                <select className="d-none d-md-block form-select-sm ms-4 col-2" aria-label="Default select example">
                     <option defaultValue>ka</option>
                     <option value="1">Eng</option>
                     <option value="2">Ru</option>

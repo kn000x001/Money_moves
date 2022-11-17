@@ -24,3 +24,8 @@ main {
     border-radius: 7px;
     background-color: rgb(200, 199, 199);
 }
+
+
+.wallet__image {
+    background-color: rgb(200, 199, 199);
+}

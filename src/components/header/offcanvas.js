@@ -5,7 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faUser, faChartPie, faCircleInfo, faBorderAll, 
     faLocationDot, faGear, faCommentDots, faArrowRightFromBracket, faBell,
-    faSun, faMoon, faBars } from '@fortawesome/free-solid-svg-icons'
+    faBars } from '@fortawesome/free-solid-svg-icons'
+import Toggler from "./toggler"
 
 const Hamburger = () => {
   const [show, setShow] = useState(false);
@@ -15,7 +16,7 @@ const Hamburger = () => {
 
   return (
     <>
-        <div className="col-1 d-lg-none mt-4">
+        <div className="col-1 d-lg-none">
             <Button onClick={handleShow}>
                <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
             </Button>
@@ -23,6 +24,11 @@ const Hamburger = () => {
             <Offcanvas show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton>
                 <Offcanvas.Title>Money Moves</Offcanvas.Title>
+                <select className="d-none d-md-block form-select-sm ms-4 col-2" aria-label="Default select example">
+                    <option defaultValue>ka</option>
+                    <option value="1">Eng</option>
+                    <option value="2">Ru</option>
+                </select>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                 <header className="d-flex flex-column col-12 justify-content-between p-2">
@@ -89,19 +95,7 @@ const Hamburger = () => {
                         </div>
                     </div>
 
-                    <div className="border-top my-5">
-                        <div className="d-flex justify-content-center align-items-center day-night-cicle mt-3">
-                            <div id="day" className="p-2 d-flex">
-                                <FontAwesomeIcon icon={faSun} className="me-2"/>
-                                <p>Day</p>
-                            </div>
-
-                            <div id="night" className="p-2 d-flex">
-                                <FontAwesomeIcon icon={faMoon} className="me-2"/>
-                                <p>Night</p>
-                            </div>
-                        </div>
-                    </div>
+                    <Toggler></Toggler>
                 </header>
                 </Offcanvas.Body>
             </Offcanvas>

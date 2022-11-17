@@ -31,9 +31,19 @@ const Widgets = () => {
       }}
        effect
        speed={600}
-       slidesPerView={3}
+       slidesPerView={1}
+       centeredSlides={false}
+       breakpoints={{
+        // when window width is >= 640px
+        576: {
+          slidesPerView: 2,
+        },
+        // when window width is >= 768px
+        768: {
+          slidesPerView: 3,
+        },
+      }}
        loop
-       centeredSlides
        spaceBetween={30}
        className={styles.myswiper}
        >
@@ -80,7 +90,7 @@ const Widgets = () => {
               <div className="d-flex align-items-end">
                 <h2>14.45</h2><p className="mb-1">₾</p>
               </div>
-              <div><p className="m-1">აქტიური</p></div>
+              <div><p className="m-1 d-none d-lg-block">აქტიური</p></div>
             </div>
           </div>
           
